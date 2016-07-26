@@ -35,12 +35,15 @@ For run this app just follow the next steps:
   * To set paramters open the config.ini file. Open the config.ini file to set parameters. This file  contain 4 sections, corresponding at header titles. Each section contains two settings. They are priority and ordering. Priority defines the priority order in which a title is ordered and ordering defines whether ascending or descending.
   
   Example:
+
       [Author]
         priority = 2
         ordering = DESC
+        
       [Title]
         priority = 1
         ordering = ASC
+        
 
   In the example above, the data will first be ordered by "Title" in ascending order and after will be ordered by " Author " in descending order. The absence of any sections or empty parameters are disregarded.
 
